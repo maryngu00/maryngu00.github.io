@@ -1,0 +1,58 @@
+*{
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+
+.pic {
+  width: 175px;
+  height: 175px;
+  position: absolute;
+  border-radius: 50%;
+  top: 60px;
+  left: 10%;
+}
+
+.textbox {
+  position: absolute;
+  height: 175px;
+  width: 50%;
+  top: 60px;
+  left: 40%;
+  text-align: center;
+  padding: 35px;
+}
+
+
+
+.personal {
+  grid-area: mid;
+}
+
+.info {
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.quote {
+  grid-area: foot;
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.head {
+  background: url("./images/binary.jpg");
+  text-align: center;
+  font-weight: 570;
+  font-size: 75px;
+  padding: 150px;
+  color: white;
+  position: relative;
+}
+
+
